@@ -118,6 +118,10 @@ main {
     padding: 20px 0px;
 }
 
+.user-rivew {
+    margin: 80px 0px;
+}
+
 .user-quantity-info {
     color: rgb(78, 71, 255);
     font-family: inter;
@@ -136,18 +140,21 @@ main {
     font-size: 20px;
     font-weight: 400;
 }
-.river-user-name-title{
-color: rgba(117, 117, 117, 1);
-font-family: Inter;
-font-size: 16px;
-font-weight: 600;
+
+.river-user-name-title {
+    color: rgba(117, 117, 117, 1);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
 }
-.river-user-name-des{
-color: rgba(179, 179, 179, 1);
-font-family: Inter;
-font-size: 16px;
-font-weight: 400;
+
+.river-user-name-des {
+    color: rgba(179, 179, 179, 1);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
 }
+
 .user-list {
     display: flex;
     flex-direction: column;
@@ -175,6 +182,46 @@ font-weight: 400;
     padding: 20px;
 }
 
+.focus {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 14px;
+    background: rgba(255, 255, 255, 1);
+}
+
+.focus-title {
+    font-size: 50px;
+    font-weight: 700;
+    padding: 20px 0px;
+}
+
+.focus-des {
+    color: rgba(0, 0, 0, 0.5);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.focus-btn {
+    box-sizing: border-box;
+    border-radius: 10px;
+    backdrop-filter: blur(4px);
+    background-color: #4E47FF;
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px 26px 10px 26px;
+    margin: 20px 0px;
+}
+.focus-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
 
 @media only screen and (max-width: 600px) {
 
@@ -190,7 +237,7 @@ font-weight: 400;
 
     .banner>.banner-title,
     .action-title,
-    .user-title {
+    .user-title,.focus-title {
         max-width: 100%;
         font-size: 25px;
         font-weight: 700;
@@ -206,7 +253,7 @@ font-weight: 400;
         margin: 50px 0px;
     }
 
-    .action-description {
+    .action-description, .focus-des{
         font-size: 12px;
         font-weight: 400;
         width: 300px;
@@ -233,6 +280,15 @@ font-weight: 400;
     .user-info {
         padding: 0px;
     }
-
+    .focus-img{
+        width: 300px;
+    }
+.focus {
+    align-items: start;
+    justify-content: start;
+}
+.user-rivew {
+    margin: 40px 0px;
+}
 
 }
