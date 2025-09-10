@@ -215,13 +215,69 @@ main {
     padding: 10px 26px 10px 26px;
     margin: 20px 0px;
 }
-.focus-info{
+
+.focus-info {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
     justify-content: center;
 }
+
+.contact-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin: 80px 0px;
+}
+
+.contact-form-title {
+    font-size: 70px;
+    font-weight: 700;
+}
+
+.contact-input-title {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 10px 0px;
+
+}
+
+.input-field {
+    width: 400px;
+    height: 30px;
+
+}
+
+input::placeholder {
+    color: rgba(0, 0, 0, 0.5);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 32px 20px;
+}
+
+textarea::placeholder {
+    color: rgba(0, 0, 0, 0.5);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10px 20px;
+
+}
+
+.contact-btn {
+    border-radius: 10px;
+    background-color: #4E47FF;
+    padding: 10px 150px 10px 150px;
+    color: rgba(255, 255, 255, 1);
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 20px 0px;
+}
+
 
 @media only screen and (max-width: 600px) {
 
@@ -237,7 +293,8 @@ main {
 
     .banner>.banner-title,
     .action-title,
-    .user-title,.focus-title {
+    .user-title,
+    .focus-title {
         max-width: 100%;
         font-size: 25px;
         font-weight: 700;
@@ -253,7 +310,8 @@ main {
         margin: 50px 0px;
     }
 
-    .action-description, .focus-des{
+    .action-description,
+    .focus-des {
         font-size: 12px;
         font-weight: 400;
         width: 300px;
@@ -269,7 +327,8 @@ main {
     }
 
     .user-quantity,
-    .river-decription {
+    .river-decription,
+    .contact-section {
         display: flex;
         flex-direction: column;
         gap: 30px;
@@ -280,15 +339,33 @@ main {
     .user-info {
         padding: 0px;
     }
-    .focus-img{
+
+    .focus-img {
         width: 300px;
     }
-.focus {
-    align-items: start;
-    justify-content: start;
-}
-.user-rivew {
-    margin: 40px 0px;
-}
 
+    .focus {
+        align-items: start;
+        justify-content: start;
+    }
+
+    .user-rivew {
+        margin: 40px 0px;
+    }
+
+    .contact-form-title {
+        font-size: 40px;
+        font-weight: 700;
+    }
+
+    .input-field {
+        width: 200px;
+        height: 20px;
+
+    }
+
+    .contact-btn {
+        padding: 10px 80px 10px 80px;
+    }
+    
 }
