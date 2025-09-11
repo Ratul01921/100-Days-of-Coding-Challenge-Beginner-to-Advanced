@@ -258,6 +258,11 @@ input::placeholder {
     padding: 32px 20px;
 }
 
+textarea {
+    width: 400px;
+    height: 100px;
+}
+
 textarea::placeholder {
     color: rgba(0, 0, 0, 0.5);
     font-family: Inter;
@@ -278,6 +283,51 @@ textarea::placeholder {
     margin: 20px 0px;
 }
 
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 1);
+    ;
+    padding: 80px 0px;
+    box-sizing: border-box;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.footer-title {
+    color: rgba(78, 71, 255, 1);
+    font-family: Inter;
+    font-size: 100px;
+    font-weight: 900;
+}
+
+.footer-des {
+    color: rgba(137, 135, 161, 1);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 20px 0;
+}
+
+.footer-servise {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+
+}
+
+footer ul a {
+    text-decoration: none;
+    color: rgba(137, 135, 161, 1);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+footer ul li {
+    list-style: none;
+}
 
 @media only screen and (max-width: 600px) {
 
@@ -353,19 +403,40 @@ textarea::placeholder {
         margin: 40px 0px;
     }
 
-    .contact-form-title {
+    .contact-form-title,
+    .footer-title {
         font-size: 40px;
         font-weight: 700;
     }
 
     .input-field {
-        width: 200px;
+        width: 250px;
         height: 20px;
 
+    }
+
+    textarea {
+        width: 250px;
+        height: 80px;
     }
 
     .contact-btn {
         padding: 10px 80px 10px 80px;
     }
-    
+
+    .contact-section,
+    .footer- {
+        padding: 20px 0;
+    }
+
+    .footer-des {
+        margin: 20px 10px;
+    }
+
+    .footer-servise {
+        gap: 15px;
+
+    }
+
+
 }
