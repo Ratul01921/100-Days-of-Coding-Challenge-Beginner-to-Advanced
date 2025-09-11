@@ -5,9 +5,9 @@ This repository chronicles my **100-day coding journey**, starting with **HTML, 
 The purpose of this challenge is to build **daily projects**, gradually progressing from frontend fundamentals to complete full-stack applications, while consistently tracking progress and enhancing development skills.
 
 ## Projects Overview
-| Day | Project | Description | Live Link |
+| Day | Project | Tech/Features Used | Live Link |
 |-----|---------|-------------|-----------|
-| 1   | Web-Flow Website | Header section with navigation menu | [Live](#) |
+| 1   | Web-Flow Website | HTML, CSS, Flexbox, Responsive | [Live](https://webflow-website-day-1.netlify.app/) |
 
 | ... | ... | ... | ... |
 
