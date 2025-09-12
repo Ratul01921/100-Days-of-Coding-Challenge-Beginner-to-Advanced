@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    font-family: "Inter", sans-serif;
+    box-sizing: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/* Share Sytle */
+.flex{
+    display: flex;
+}
+.title{
+    font-size: 48px;
+    font-weight: 600;
+}
+
+
+/* navbar section style */
+.nav-container{
+    justify-content: space-between;
+    margin: 40px;
+}
+.nav-content{
+    gap: 30px;
+}
+ul li{
+    list-style: none;
+}
+.menu{
+    text-decoration: none;
+    color: #505050;
+    cursor: pointer;
+    position: relative;
+    padding-bottom: 4px;
+    
+}
+.menu::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background: #505050;
+  transition: width 0.3s ease;
+}
+
+.menu:hover::after {
+  width: 100%;
+}
+
+.menu.active::after {
+  width: 100%;
+}
