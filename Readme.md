@@ -8,6 +8,7 @@ The purpose of this challenge is to build **daily projects**, gradually progress
 | Day | Project | Tech/Features Used | Live Link |
 |-----|---------|-------------|-----------|
 | 1   | Web-Flow Website | HTML, CSS, Flexbox, Responsive | [Live](https://webflow-website-day-1.netlify.app/) |
+| 1   | E=commerce Tamplete Design | HTML, CSS, Flexbox, Responsive | [Live](https://f2-task.netlify.app/) |
 
 | ... | ... | ... | ... |
 

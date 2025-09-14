@@ -115,3 +115,44 @@ ul li {
 .seller-container{
     margin-bottom: 40px;
 }
+
+/* Footer section start here */
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 1);
+    ;
+    /* padding: 40px 0px; */
+    box-sizing: border-box;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+
+.footer-des {
+    color: rgba(137, 135, 161, 1);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.footer-servise {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+
+}
+
+footer ul a {
+    text-decoration: none;
+    color: rgba(137, 135, 161, 1);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+footer ul li {
+    list-style: none;
+}
