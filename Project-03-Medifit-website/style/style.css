@@ -30,7 +30,7 @@ header{
 
 }
 
-.nav-aside {
+.nav-aside{
     align-items: center;
     justify-content: center;
 
@@ -79,6 +79,10 @@ main{
     background-color: #503217;
     color: white;
     border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 }
 .category-container{
     align-items: center;
@@ -165,7 +169,7 @@ main{
 .product-container{
     margin-top: 80px;
 }
-.product-title{
+.product-title, .user-title{
     text-align: center;
 
 }
@@ -190,4 +194,95 @@ main{
 }
 .collection-title{
     padding-top: 10px ;
+}
+.user-rivew-content{
+    background-color: #F2F2F2;
+    padding:60px 20px 60px 100px;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 10px;
+    position: relative;
+    
+    
+}
+.review-tag{
+    position: absolute;
+    top: 40px;
+    left: 20px;
+}
+.rivew-user img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.user-name{
+    font-size: 1rem;
+    font-weight: 500;
+}
+.user-role{
+    font-size: 1rem;
+    font-weight: 500;
+    color: #8F7D6A;
+}
+.review-user-container{
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    padding: 40px;
+}
+.rivew-user{
+    justify-content: center;
+    align-items: center;
+}
+.footer-aside p, .adress-title{
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding-bottom: 15px;
+    text-align: center;
+}
+.footer-aside ul li, .footer-des, .adress-des{
+    font-size: 1rem;
+    font-weight: 500;
+    color: #8F7D6A;
+    padding: 5px;
+    text-align: center;
+}
+.footer-title {
+    align-items: center;
+    justify-content: center;
+    font-size: 5rem;
+
+}
+.social-media{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.footer-container{
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1300px;
+    margin: 0 auto;
+    margin-top: 80px;
+    
+}
+.adress-img{
+    width: 20px;
+    height: 20px;
+
+}
+.adress{
+    gap: 2px;
+    justify-content: center;
+    align-items: center;
+}
+.user-adress{
+    margin-top: 40px;
+}
+.footer-copy{
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 500;
 }

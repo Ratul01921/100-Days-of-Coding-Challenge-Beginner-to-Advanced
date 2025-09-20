@@ -5,10 +5,11 @@ This repository chronicles my **100-day coding journey**, starting with **HTML, 
 The purpose of this challenge is to build **daily projects**, gradually progressing from frontend fundamentals to complete full-stack applications, while consistently tracking progress and enhancing development skills.
 
 ## Projects Overview
-| Day | Project | Tech/Features Used | Live Link |
+| Project | Project | Tech/Features Used | Live Link |
 |-----|---------|-------------|-----------|
 | 1   | Web-Flow Website | HTML, CSS, Flexbox, Responsive | [Live](https://webflow-website-day-1.netlify.app/) |
-| 1   | E=commerce Tamplete Design | HTML, CSS, Flexbox, Responsive | [Live](https://f2-task.netlify.app/) |
+| 2   | E-commerce Tamplete Design | HTML, CSS, Flexbox, Responsive | [Live](https://f2-task.netlify.app/) |
+| 3   | Medifit-website-design | HTML, CSS, Flexbox, Responsive | [Live](https://medifit-website-design.netlify.app/) |
 
 | ... | ... | ... | ... |
 
