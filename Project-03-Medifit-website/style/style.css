@@ -5,6 +5,7 @@
     box-sizing: 0;
     margin: 0;
     padding: 0;
+    color: #503217;
 }
 .title{
     font-size: 2rem;
@@ -55,4 +56,138 @@ div >ul li{
 div >ul li a{
     text-decoration: none;
     color: #503217;
+}
+
+/* main section start here */
+main{
+    background-color: #E2DFCF;
+}
+.banner-container{
+    max-width: 1400px;
+    margin:0 auto;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.banner-des{
+    font-size: 1rem;
+    color: #503217;
+    padding: 15px 0;
+}
+.btn{
+    padding: 10px 20px;
+    background-color: #503217;
+    color: white;
+    border-radius: 10px;
+}
+.category-container{
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+    padding: 20px;
+}
+.category-title{
+    text-align: center;
+}
+.card{
+    border: 2px solid #8F7D6A1A;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #EEEDE7;
+    width: 100px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+.card > img{
+    width: 60px;
+}
+.card-title{
+    color: #503217;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.cart-quntity{
+    color: #8F7D6A;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+/* collection section start here */
+.collection-card{
+    border: 1px solid white;
+    background-color: #F2F2F2;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    width: 380px;
+    height: 200px;
+
+}
+.collection-container{
+    justify-content: center;
+    align-items: center;
+}
+.badge{
+    background-color: #D3744A;
+    padding: 4px 10px;
+    border-radius: 10px;
+    border: transparent;
+}
+.collection-title{
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding-top: 30px;
+}
+.collecion-view{
+    border-bottom: 2px solid #503217;
+    display: inline;
+    position: relative;
+
+}
+.collection-img{
+    width: 24px;
+    height: 24px;
+    position: relative;
+    top: 6px;
+
+}
+.collection-des{
+    font-size: 1rem;
+    color:#8F7D6A;
+}
+
+/* product section start here */
+.product-container{
+    margin-top: 80px;
+}
+.product-title{
+    text-align: center;
+
+}
+.product-img{
+    position: relative;
+    height: 250px;
+    width: 300px;
+    background-color: #F2F2F2;
+    justify-content: center;
+    align-items: center;
+}
+.prouct-badge{
+    position: absolute;
+    left: 10px;
+    top: 20px;
+}
+.product-card-container{
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 20px 0;
+}
+.collection-title{
+    padding-top: 10px ;
 }
