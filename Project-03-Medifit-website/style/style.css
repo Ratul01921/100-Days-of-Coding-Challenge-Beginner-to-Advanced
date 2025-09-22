@@ -92,6 +92,7 @@ main{
 }
 .category-title{
     text-align: center;
+    margin: 40px;
 }
 .card{
     border: 2px solid #8F7D6A1A;
@@ -171,6 +172,7 @@ main{
 }
 .product-title, .user-title{
     text-align: center;
+    margin-top: 60px;
 
 }
 .product-img{
@@ -197,14 +199,21 @@ main{
 }
 .user-rivew-content{
     background-color: #F2F2F2;
-    padding:60px 20px 60px 100px;
-    max-width: 1200px;
+    width: 1200px;
     margin: 0 auto;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 50px;
     position: relative;
+    border: 2px solid white;
+    border-radius: 10px;
+    border: transparent;
     
     
+    
+}
+.user-rivew-des{
+    text-align: center;
+    padding: 90px ;
 }
 .review-tag{
     position: absolute;
