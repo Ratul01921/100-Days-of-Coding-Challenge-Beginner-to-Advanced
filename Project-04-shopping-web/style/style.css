@@ -15,8 +15,35 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
+/* navbar section start here */
+.nav-container{
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1400px;
+    margin:  30px auto;
+}
+.nav-content {
+   gap: 20px;
+   justify-content: center;
+   align-items: center;
+    
+}
+.nav-title{
+    font-size: 40px;
+    font-weight: 400;
+    color: #484848;
 
+}
+.nav-content li{
+    list-style: none;
+    font-size: 16px;
+    color: #484848;
+    font-weight: 400;
+
+    
+}
 /* banner section style */
 
 .banner-container{
@@ -30,7 +57,7 @@
 .product-container{
     margin: 70px 0;
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 50px auto;
     
 }
 .product-card-container{
