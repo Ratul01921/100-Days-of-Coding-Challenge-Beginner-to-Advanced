@@ -13,6 +13,9 @@ The purpose of this challenge is to build **daily projects**, gradually progress
 | 4   | shopping-website-design | HTML, CSS, Flexbox, Responsive | [Live](https://shopping-web-design.netlify.app/) |
 | 5   | Portfolio-website-design | Tailwind CSS, Responsive | [Live](https://portfolio-website-005.netlify.app/) |
 | 6   | JS-Basic-Problem | Function, Array, String, Loop, Conditional Operator | [Live](https://github.com/Ratul01921/100-Days-of-Coding-Challenge-Beginner-to-Advanced/tree/main/Project-06-JS-Basic-Problem) |
+| 7  | JS-Basic-Problem | Function,  Conditional Operator | [Live](http://github.com/Ratul01921/100-Days-of-Coding-Challenge-Beginner-to-Advanced/tree/main/Project-07-JS-Operators%20%26%20Conditionals) |
+| 8  | JS-Basic-Problem | Function, Array, String, Loop,Conditional Operator | [Live](https://github.com/Ratul01921/100-Days-of-Coding-Challenge-Beginner-to-Advanced/tree/main/Project-06-JS-Basic-Problem) |
+| 8  | BodyShape-Gym-Website| Tailwind CSS, AOS Animation, Responsive, JS | [Live](https://body-shape-gym-website.netlify.app/) |
 
 | ... | ... | ... | ... |
 
